@@ -1,0 +1,47 @@
+body {
+    background-color:darkslategray; /*Velger bakgrunnsfargen*/
+    color:white; /*Velger fargen som teksten skal være*/
+    text-align: center; /* Gjør sånn at teksten sentrerer seg mot midten av siden*/
+    font-size: 1.5rem; /*Velger størrelsen til skriften*/
+    line-height:2rem; /*Velger distansesn mellom to rader med tekst slik at det blir lettere å lese*/
+    font-family: Arial, Helvetica, sans-serif; /*Velger fonten som skal brukes på all skrift på siden*/
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  
+  .grid-container > div {
+    background-color: slategray;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+.item2{
+  grid-column-start: 2;
+  grid-column-end: 5; 
+  
+}
+.item3{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.item4{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-size: 12px;
+}
