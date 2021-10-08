@@ -87,7 +87,7 @@ body {
   .dropdown-content a:hover {background-color:gray;} /*Velger fargen som skal vises når du hoverer over dropdown contentet*/
 
   
-  .dropdown:hover .dropdown-content {display: block;  width:max-content; } /*Velger hvordan dropdowncontentet skal se ut*/
+  .dropdown:hover .dropdown-content {display: block;  /*width:max-content;*/ } /*Velger hvordan dropdowncontentet skal se ut*/
   
   .dropdown:hover .dropbtn {background-color: darkgray;}/*Velger fargen som skal vises når du hoverer over dropdown knappen*/
 
