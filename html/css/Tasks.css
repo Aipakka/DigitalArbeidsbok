@@ -45,3 +45,12 @@ body {
   grid-column-end: 5;
   font-size: 12px;
 }
+
+.grid-containerME {
+  position: absolute, center;
+  display: grid;
+  width: 75%;
+  grid-gap: 10px;
+  padding: 10px;
+  
+}
