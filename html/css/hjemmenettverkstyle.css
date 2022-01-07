@@ -3,7 +3,7 @@ body {
     color:white; /*Velger fargen som teksten skal være*/
     text-align: center; /* Gjør sånn at teksten sentrerer seg mot midten av siden*/
     font-size: 1.5rem; /*Velger størrelsen til skriften*/
-    line-height:2rem; /*Velger distansesn mellom to rader med tekst slik at det blir lettere å lese*/
+    line-height: 2.25rem; /*Velger distansesn mellom to rader med tekst slik at det blir lettere å lese*/
     font-family: Arial, Helvetica, sans-serif; /*Velger fonten som skal brukes på all skrift på siden*/
 
 }
